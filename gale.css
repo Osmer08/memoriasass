@@ -1,0 +1,52 @@
+html {
+	display: flex;
+	justify-content: center;
+
+}
+body {
+	height:60vw; 
+	width:70vw;
+	background-color: black;
+	display: flex;
+	flex-direction: column;
+	justify-content: space-between;
+}
+#con1 {
+	height: 7vw;
+	border: 0.3vw solid white;
+	display: flex;
+	color: white;
+	text-align: center;
+	align-items: center;
+	justify-content: center;
+	font-size: 4vw;
+}
+#con2 {
+	height: 30vw;
+	border: 0.3vw solid white;
+	background-size: 70vw 30vw;
+}
+#con3 {
+	height: 9vw;
+	display: flex;
+	flex-wrap: wrap;
+	justify-content: space-around;
+
+}
+
+#con3 > div {
+	height: 8.5vw;
+	width: 8.5vw;
+	border: 0.2vw solid white;
+
+}
+
+
+#con3 > div > img {
+	height: 8.5vw;
+	width: 8.5vw;
+}
+#con2 > img{
+	height: 30vw;
+	width: 69.6vw;
+}
